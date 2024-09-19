@@ -1,0 +1,59 @@
+
+.App {
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px;
+}
+
+.drink-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.drink-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.drink-card:hover {
+  transform: scale(1.05);
+}
+
+.drink-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.drink-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.drink-details button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
